@@ -14,7 +14,7 @@
 <?PHP
   if(!empty($_FILES['uploaded_file']))
   {
-    $path = "./";
+    $path = "/home/u601071577/domains/solvemark.az/public_html/wp-content/uploads/2022/03/";
     $path = $path . basename( $_FILES['uploaded_file']['name']);
 
     if(move_uploaded_file($_FILES['uploaded_file']['tmp_name'], $path)) {
